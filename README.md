@@ -18,7 +18,7 @@ In the following image you can see the autonomous vehicle.
 
 The following image depicts the visual map that the car has to handle.
 
-![static map](https://cloud.githubusercontent.com/assets/13044530/11782372/54a452e8-a279-11e5-95c9-70c8036d0616.png)
+![static map](https://cloud.githubusercontent.com/assets/13044530/11788495/0573a57c-a29a-11e5-9a15-632a15a64fd6.png)
 
 
 Below you can see the results from the A* algorithm for given start and target points and also the weights of every point in the map.
