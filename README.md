@@ -20,8 +20,9 @@ The following image depicts the visual map that the car has to handle.
 
 ![static map](https://cloud.githubusercontent.com/assets/13044530/11782372/54a452e8-a279-11e5-95c9-70c8036d0616.png)
 
+
 Below you can see the results from the A* algorithm for given start and target points and also the weights of every point in the map.
 
-![a star algorithm](https://cloud.githubusercontent.com/assets/13044530/11782376/5b4ef9b8-a279-11e5-80e6-fadc69fb64eb.png)
+![a star algorithm](https://cloud.githubusercontent.com/assets/13044530/11788499/09d693a4-a29a-11e5-8e2b-cca34e4ef0ae.png)
 
 
