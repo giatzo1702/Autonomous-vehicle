@@ -12,4 +12,3 @@ You will find two folders in the project.
   -- The arduino folder contains the .ino file for the arduino and an auxiliary library .h.
 
 
-![alt tag](https://www.flickr.com/gp/132117730@N05/ZJ95e8)
