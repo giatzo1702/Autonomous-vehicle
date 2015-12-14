@@ -10,3 +10,6 @@ You will find two folders in the project.
   -- The astar folder contains the .c file that implements the A* algorithm. Also there is a makedile that compliles that file.
   
   -- The arduino folder contains the .ino file for the arduino and an auxiliary library .h.
+
+
+![alt tag](https://www.flickr.com/gp/132117730@N05/ZJ95e8)
