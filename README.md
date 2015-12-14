@@ -29,3 +29,6 @@ Below you can see the results from the A* algorithm for given start and target p
 ![a star algorithm](https://cloud.githubusercontent.com/assets/13044530/11788499/09d693a4-a29a-11e5-8e2b-cca34e4ef0ae.png)
 
 
+Demonstration video link:
+
+https://www.youtube.com/watch?v=aSWnoYFdYM8
