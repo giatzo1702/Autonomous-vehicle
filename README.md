@@ -1,29 +1,31 @@
 # Autonomous-vehicle
-Development of a simple autonomous car using arduino
+Development of a simple autonomous vehicle using Arduino
 
-The basic idea of the project was the building and the programming of a scale 1:12 rc car that starts from a specific point of a map and tries to autonomously reach the target point by avoiding obstacles. The static map of the environment is saved in car's memory and the algorithm A* is running to find an optimal path that connects the source with the target point.
+The basic idea
 
-Because of memory issues, arduino could not successfully run the A* algorithm to produce the directions for the optimal path. So the A* algorithm compiled and run on a linux environment and results manually passed into the arduino code.
+The autonomous rc car (1:12 scale) starts from a specific point and autonomously navigates itself to reach the target point, by avoiding static obstacles. A* algorithm was used for the optimal path design.
 
-You will find two folders in the project. 
+Because of memory issues, the A* algorithm could not be executed in Arduino to produce the directions for the optimal path. Thus, the A* algorithm was compiled and executed in a linux environment and the results were manually passed into the arduino code.
 
-  -- The astar folder contains the .c file that implements the A* algorithm. Also there is a makedile that compliles that file.
+The project consists of two folders. 
+
+  -- The "astar" folder containing the implementation of A* algorithm in C programming language.
   
-  -- The arduino folder contains the .ino file for the arduino and an auxiliary library .h.
+  -- The "arduino" folder containing the Arduino code and an auxiliary library.
 
-In the following image you can see the autonomous vehicle.
+In the following image, the autonomous vehicle is presented.
 
 ![the vehicle](https://cloud.githubusercontent.com/assets/13044530/11782519/23517878-a27a-11e5-8563-4e7fd03df50d.jpg)
 
 
 
-The following image depicts the visual map that the car has to handle.
+The following image depicts the visual map that is handled by the vehicle.
 
 ![static map](https://cloud.githubusercontent.com/assets/13044530/11788495/0573a57c-a29a-11e5-9a15-632a15a64fd6.png)
 
 
 
-Below you can see the results from the A* algorithm for given start and target points and also the weights of every point in the map.
+The results from the A* algorithm for given start and target points. The weight of each point is presented in the map.
 
 ![a star algorithm](https://cloud.githubusercontent.com/assets/13044530/11788499/09d693a4-a29a-11e5-8e2b-cca34e4ef0ae.png)
 
